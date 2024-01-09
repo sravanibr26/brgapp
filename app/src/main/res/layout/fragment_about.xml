@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/_loginbg"
+    tools:context=".AboutFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <TextView
+            android:id="@+id/AboutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Know us more..?"
+            android:textAlignment="center"
+            android:textColor="@color/LightSeaGreen"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbars="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textAlignment="center"
+                android:textColor="@color/LightSeaGreen"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our event venue is a fantastic place to celebrate special moments! "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:padding="8dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It's right in the middle of the city and has cool, modern spaces for all kinds of parties. Our vision is to create a welcoming and inclusive environment for all kinds of celebrations. We take pride in our attention to detail, personalized service, and professional execution. Our goal is to ensure that every guest has a memorable and enjoyable experience in our beautiful and versatile venue. With a passion for excellence and a commitment to customer satisfaction, we strive to be the premier event destination in the city."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:padding="8dp"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutServices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutAbout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Services we provide"
+                    android:textAlignment="center"
+                    android:textColor="@color/LightSeaGreen"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Event planning and Coordination"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spacious Layout"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customized Decoration"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Catering"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ample Parking Space"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Music and Lighting Systems"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Waiters and Security guards"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Budget Friendly"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutServices">
+
+
+                <ImageView
+                    android:id="@+id/location"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/locationText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location_link"
+                    android:textAlignment="center"
+                    android:autoLink="web"
+                    android:padding="8dp"
+                    android:clickable="true"
+                    android:onClick="onLinkClick"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="What are you waiting for..?? come... let's make your celebration unforgettable!!!"
+                android:textAlignment="center"
+                android:textColor="@color/LightSeaGreen"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layoutLocation"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</FrameLayout>

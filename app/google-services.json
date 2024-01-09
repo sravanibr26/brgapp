@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "344116144106",
+    "project_id": "brgapp-13fc0",
+    "storage_bucket": "brgapp-13fc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344116144106:android:40304d6a896be9e69fb493",
+        "android_client_info": {
+          "package_name": "com.bingerdranch.android.brgapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv_CuISQ9PbXVXq_SnTiyy6W11HBwMaEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

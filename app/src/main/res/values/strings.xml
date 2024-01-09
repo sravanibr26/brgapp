@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BrgApp</string>
+    <string name="logo_description">Brg logo</string>
+    <string name="event_wedding">Wedding Img</string>
+    <string name="event_reception">Reception Img</string>
+    <string name="event_engagement">Engagement Img</string>
+    <string name="event_sangeet">Sangeet Img</string>
+    <string name="event_haldi">Haldi Img</string>
+    <string name="event_birthday">Birthday Img</string>
+    <string name="event_together">Together Img</string>
+    <string name="event_corporate">Corporate Img</string>
+    <string name="event_baby">Baby Img</string>
+    <string name="event_cradle">Cradle Img</string>
+    <string name="event_anniversary">Anniversary Img</string>
+    <string name="image01">Img01</string>
+    <string name="image02">Img02</string>
+    <string name="image03">Img03</string>
+    <string name="image04">Img04</string>
+    <string name="image05">Img05</string>
+    <string name="image06">Img06</string>
+    <string name="image07">Img07</string>
+    <string name="image08">Img08</string>
+    <string name="image09">Img09</string>
+    <string name="image10">Img10</string>
+    <string name="image11">Img11</string>
+    <string name="image12">Img12</string>
+    <string name="web_link">Click here to visit <a href="https://brg2019.github.io/BRG_Website/"> Website</a></string>
+    <string name="location_link"><a href="https://www.google.com/maps/place/BRG+Garden+and+Function+Hall/@17.4451494,78.2546048,17z/data=!4m6!3m5!1s0x3bcbed0da3fac375:0x3f1721a1bccb3f5a!8m2!3d17.4451494!4d78.2546048!16s%2Fg%2F11fsscrtsr?entry=ttu">Location</a></string>
+
+    <string name="select_event_type">Select Event Type</string>
+
+    <string name="map_content_description">Map view</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

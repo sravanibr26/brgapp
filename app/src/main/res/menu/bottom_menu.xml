@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:title="Home"
+        android:icon="@drawable/home1"/>
+
+    <item
+        android:id="@+id/bottom_images"
+        android:title="Images"
+        android:icon="@drawable/images"/>
+
+    <item
+        android:id="@+id/bottom_contact"
+        android:title="Contact"
+        android:icon="@drawable/connect_contact"/>
+
+    <item
+        android:id="@+id/bottom_booking"
+        android:title="Book"
+        android:icon="@drawable/book"/>
+
+    <item
+        android:id="@+id/bottom_about"
+        android:title="About"
+        android:icon="@drawable/dashboard"/>
+
+</menu>

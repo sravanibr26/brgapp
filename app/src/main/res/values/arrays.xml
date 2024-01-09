@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="event_types">
+        <item>Wedding</item>
+        <item>Reception</item>
+        <item>Engagement</item>
+        <item>Sangeet</item>
+        <item>Haldi</item>
+        <item>Birthday</item>
+        <item>Get-together</item>
+        <item>Corporate Events</item>
+        <item>Baby Shower</item>
+        <item>Cradle Ceremony</item>
+        <item>Anniversary</item>
+        <item>Other</item>
+        <!-- Add more event types as needed -->
+    </array>
+</resources>
